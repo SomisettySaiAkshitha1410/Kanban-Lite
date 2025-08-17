@@ -121,7 +121,7 @@ Feel free to submit issues and pull requests for improvements!
 - [Vercel](https://vercel.com)
 - [Clever Cloud](https://www.clever-cloud.com)
 - [React Beautiful DnD](https://github.com/atlassian/react-beautiful-dnd)
-```
 
-***
+
+
 
