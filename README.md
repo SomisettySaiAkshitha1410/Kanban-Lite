@@ -1,3 +1,4 @@
+
 # Kanban Lite
 
 A lightweight, full-stack Kanban board application featuring user authentication, team collaboration, board sharing, and real-time task management.  
@@ -18,39 +19,44 @@ Deployed with a **React frontend (Vercel)**, **Node.js/Express backend (Render)*
 
 ## 🛠 Tech Stack
 
-| Layer     | Technology                               |
-|-----------|-------------------------------------------|
+| Layer     | Technology                                  |
+|-----------|--------------------------------------------|
 | Frontend  | React, Socket.io, Styled with CSS / React Beautiful DnD |
-| Backend   | Node.js, Express, Socket.io                        |
-| Database  | MySQL (Clever Cloud)                      |
-| Hosting   | Vercel (frontend), Render (backend)       |
+| Backend   | Node.js, Express, Socket.io                 |
+| Database  | MySQL (Clever Cloud)                        |
+| Hosting   | Vercel (frontend), Render (backend)        |
 
 ---
 
 ## ⚡ Getting Started
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/kanban-lite.git
 
----
-###  2. Install dependencies
-```bash
+```
+git clone https://github.com/your-username/kanban-lite.git
+```
+
+### 2. Install dependencies
+
+```
 cd kanban-lite/frontend
 npm install
 
 cd ../backend
 npm install
----
+```
+
 ### 3. Set up Environment Variables
 
 **Frontend (`frontend/.env`)**
-```env
+
+```
 REACT_APP_API_URL=https://your-backend.onrender.com
+```
 
+**Backend (`backend/.env`)**
 
-#### Backend (`backend/.env`)
-```env
+```
 DB_HOST=your-mysql-host
 DB_USER=your-mysql-user
 DB_PASS=your-mysql-password
@@ -58,21 +64,23 @@ DB_NAME=your-mysql-dbname
 DB_PORT=3306
 JWT_SECRET=your-secret-key
 FRONTEND_ORIGIN=https://your-frontend.vercel.app
+```
 
----
 ### 4. Run locally
 
 **Backend**
 
-```bash
+```
 cd backend
 npm start
+```
 
 **Frontend**
-```bash
+
+```
 cd frontend
 npm start
-
+```
 
 ---
 
@@ -113,4 +121,7 @@ Feel free to submit issues and pull requests for improvements!
 - [Vercel](https://vercel.com)
 - [Clever Cloud](https://www.clever-cloud.com)
 - [React Beautiful DnD](https://github.com/atlassian/react-beautiful-dnd)
+```
+
+***
 
